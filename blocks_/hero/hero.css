@@ -13,9 +13,8 @@ main .hero-container {
 }
 
 .hero h1 {
-  max-width: 600px;
-  margin-left: 50px;
-  text-align: left;
+  max-width: 1200px;
+  margin-left: auto;
   margin-right: auto;
   color: white;
 }
@@ -32,18 +31,4 @@ main .hero-container {
   object-fit: cover;
   width: 100%;
   height: 100%;
-}
-
-.hero p {
-  color: #FFF;
-  max-width: 600px;
-  margin-left: 50px;
-  text-align: left;
-  font-size: 1.5rem;
-}
-
-.hero a.button:any-link {
-  background-color: transparent;
-  border: 2px solid #FFF;
-  font-size: 1rem;
 }

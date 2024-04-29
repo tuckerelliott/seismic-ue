@@ -15,13 +15,15 @@
   order: 0;
 }
 
-.columns > div > .columns-img-col img {
-  display: block;
+.columns.cool > div > .columns-img-col img {
+  /* display: block; */
+  width: 40%;
+  padding: 20px;
 }
 
 @media (width >= 900px) {
   .columns > div {
-    align-items: center;
+    /* align-items: center; */
     flex-direction: unset;
     gap: 32px;
   }
@@ -30,4 +32,17 @@
     flex: 1;
     order: unset;
   }
+}
+
+.columns.cool {
+  background-color: var(--light-color);
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+main .section.highlight.columns-container img {
+  width: 50%;
 }
