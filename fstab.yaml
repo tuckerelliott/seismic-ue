@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: https://author-p99452-e916802.adobeaemcloud.com/bin/franklin.delivery/tuckerelliott/seismic-ue/main
-    type: markup
+    url: "https://author-p99452-e916802.adobeaemcloud.com/bin/franklin.delivery/tuckerelliott/seismic-ue/main"
+    type: "markup"
     suffix: ".html"
