@@ -1,6 +1,5 @@
 {
   "mappings": [
-    "/content/seismic/:/",
-    "/content/seismic/configuration:/.helix/config.json"
+    "/content/seismic/:/"
   ]
 }
