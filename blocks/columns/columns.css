@@ -52,3 +52,9 @@ main .section.highlight.columns-container img {
   width: 40%;
   padding: 20px;
 }
+
+main > div.section.cool.columns-container > div > div > div:nth-child(2) > div:nth-child(1) > picture > img {
+  /* display: block; */
+  width: 40%;
+  padding: 20px;
+}
