@@ -46,3 +46,9 @@
 main .section.highlight.columns-container img {
   width: 50%;
 }
+
+.section.cool.columns-container > div > .columns-img-col img {
+  /* display: block; */
+  width: 40%;
+  padding: 20px;
+}
